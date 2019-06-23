@@ -2,9 +2,7 @@
 
 const chalk = require('chalk');
 const { commands } = require('./commands.js');
-
-// eslint-disable-next-line prefer-destructuring
-const log = console.log;
+const { log } = console;
 
 const arrOfCommands = commands.split('\n');
 const nextCommand = arrOfCommands[
